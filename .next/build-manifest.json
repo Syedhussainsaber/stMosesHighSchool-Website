@@ -26,11 +26,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/buds-pre-school": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/buds-pre-school.js"
     ]
   },
   "ampFirstPages": []
