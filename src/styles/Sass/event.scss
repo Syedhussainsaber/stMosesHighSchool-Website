@@ -1,0 +1,58 @@
+
+.events{
+    padding: 10px;
+    margin: 5px;
+}
+.cards{
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center !important;
+flex-wrap: wrap;
+padding: 5px 8px;
+// background-image: url("/school front.jpg");
+background-color: #cbebff;
+// background-color: rgb(128,0,0,0.5);
+// background-blend-mode: overlay;
+// background-repeat: no-repeat;
+margin: 20px 0px 0px;
+}
+.event-card{
+
+    background-color: #800000;
+    // background-color: #556B2F;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    padding: 10px;
+margin: 5px 5px 12px;
+border-radius: 10px;
+    .event-title{
+        color: #FFD700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 5px 0px 15px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .event-img{
+        width: 100%;
+        margin: 0px 0px 15px;
+        border-radius: 3px;
+    }
+    .event-content{
+        // color: aliceblue;
+        color: #FDF5E6;
+
+        line-height: 1.8;
+        font-size: larger;
+        text-align: center;
+        padding: 3px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+}
+
+
+

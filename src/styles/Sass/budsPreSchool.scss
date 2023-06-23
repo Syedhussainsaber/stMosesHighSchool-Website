@@ -1,0 +1,55 @@
+.buds-container{
+    padding: 10px;
+}
+.title{
+display: flex;
+justify-content: center;
+
+    // color: rgba(0, 70, 119, 1);
+color: rgb(128,0,0,1);
+    align-items: center;
+   flex-direction: column;
+    padding: 3px 3px 5px;
+    margin: 3px 3px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h2{
+    // width: 200px;
+    padding-bottom: 5px;
+    // border-bottom: 3px solid rgba(0, 70, 119, 1);
+}
+
+hr{
+    width: 90px;
+    border: none;
+    height: 3.5px;
+    border-radius: 3.5px;
+    // background-color: rgba(0, 70, 119, 1);
+background-color: rgb(128,0,0,1);
+}
+}
+
+
+.buds-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+.content-title{
+    font-size: 2em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: rgba(0, 70, 119, 1);
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.buds-para{
+line-height: 1.5;
+text-align: center;
+font-size: 1.25em;
+color: rgb(128,0,0,1);
+}
+
+margin-bottom: 20px;
+}

@@ -1,0 +1,72 @@
+.academics-img{
+    width: 100vw;
+    height: 550px;
+}
+
+.academics-content{
+    background-color: rgb(255, 255, 117);
+    padding: 10px;
+line-height: 1.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .assessments{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+h4{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+p{
+    text-align: center;
+    align-self: self-start;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.3em;
+span{
+    text-align: center;
+color: #800000;
+}
+}
+    }
+
+.ptm{
+    padding: 10px;
+    h4{
+        font-size: 1.5em;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p{
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    }
+
+.curriculum{
+    padding: 10px;
+    h4{
+        font-size: 1.5em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+    }
+p{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+}
+}
+
+
+@media (max-width:580px){
+    .academics-img{
+height: 50vh;
+    }
+}

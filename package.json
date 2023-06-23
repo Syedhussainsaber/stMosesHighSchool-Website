@@ -1,0 +1,27 @@
+{
+  "name": "st-moses-high-school",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "firebase": "^9.22.2",
+    "framer-motion": "^10.12.16",
+    "google-maps-react": "^2.0.6",
+    "next": "13.4.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-google-maps": "^7.3.0",
+    "react-icons": "^4.10.1",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.3",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "sass": "^1.63.4"
+  }
+}
