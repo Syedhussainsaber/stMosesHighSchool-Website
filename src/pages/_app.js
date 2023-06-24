@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-import "@/styles/Sass/components/navbar.scss"
+
 import "@/styles/Sass/index.scss"
 import "@/styles/Sass/components/footer.scss"
 import "@/styles/Sass/academics.scss"
@@ -9,6 +9,7 @@ import "@/styles/Sass/event.scss"
 import "@/styles/Sass/facilities.scss"
 import "@/styles/Sass/pg.scss"
 import "@/styles/Sass/components/scrollToTop.scss"
+import "@/styles/Sass/navbar2.scss"
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

@@ -1,4 +1,5 @@
-import Navbar from "@/components/home/Navbar"
+// import Navbar from "@/components/home/Navbar"
+import Navbar2 from "@/components/home/Navbar2"
 import Footer from "@/components/common/Footer"
 import Image from "next/image"
 import { motion } from "framer-motion"
@@ -6,7 +7,7 @@ import ScrollToTopButton from "@/components/common/ScrollToTopButton "
 
 const budsPreSchool =()=>{
 return <>
-<Navbar/>
+<Navbar2/>
 <Image src={"/buds.jpg"} width={"1000"} height={"450"} className="academics-img" alt="Buds-Pre-School" />
 
 <div className="buds-container">

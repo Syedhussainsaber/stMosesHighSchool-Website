@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Navbar from '@/components/home/Navbar'
+// import Navbar from '@/components/home/Navbar'
 import About from '@/components/home/About'
 import Vision from '@/components/home/Vision'
 import ImageSlider from '@/components/ImageSlider'
@@ -8,6 +8,7 @@ import Footer from '@/components/common/Footer'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import ScrollToTopButton from '@/components/common/ScrollToTopButton '
+import Navbar2 from '@/components/home/Navbar2'
 
 export default function Home() {
   const images = [
@@ -25,7 +26,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.jpeg" />
       </Head>
-      <Navbar/>
+      <Navbar2/>
 
     <ImageSlider images={images}/>
 <div className="coding">

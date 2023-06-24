@@ -1,4 +1,5 @@
-import Navbar from "@/components/home/Navbar"
+// import Navbar from "@/components/home/Navbar"
+import Navbar2 from "@/components/home/Navbar2"
 import Footer from "@/components/common/Footer"
 import Image from "next/image"
 import Link from "next/link"
@@ -38,7 +39,7 @@ console.log(err)
 
 },[])
     return <>
-    <Navbar/>
+    <Navbar2/>
     <Image src={"/admission.png"} width={"1000"} height={"500"} className="academics-img" alt="Admission" />
 
 <div className="title">

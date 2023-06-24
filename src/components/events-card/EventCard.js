@@ -1,15 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
+
 
 const EventCard = ({title,image,content}) => {
   return (
  <>
  <div className="events">
- <motion.div 
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        >
+
  <div className="event-card">
 <div className="event-title">
     <h3>{title}</h3>
@@ -21,7 +18,7 @@ const EventCard = ({title,image,content}) => {
     </p>
 </div>
  </div>
- </motion.div>
+
  </div>
  </>
   )

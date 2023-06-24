@@ -1,12 +1,13 @@
-import Navbar from "@/components/home/Navbar"
+// import Navbar from "@/components/home/Navbar"
 import Footer from "@/components/common/Footer"
 import Image from "next/image"
 import { motion } from "framer-motion"
 import ScrollToTopButton from "@/components/common/ScrollToTopButton "
+import Navbar2 from "@/components/home/Navbar2"
 
 const academics = ()=>{
     return <>
-    <Navbar/>
+    <Navbar2/>
 <Image src={"/academics.jpeg"} width={"1000"} height={"500"} className="academics-img" alt={"Academics"} />
 
 <div className="title">
