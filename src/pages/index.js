@@ -9,6 +9,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import ScrollToTopButton from '@/components/common/ScrollToTopButton '
 import Navbar2 from '@/components/home/Navbar2'
+import Link from 'next/link'
 
 export default function Home() {
   const images = [
@@ -29,10 +30,19 @@ export default function Home() {
       <Navbar2/>
 
     <ImageSlider images={images}/>
+
+ <div className='mission-container' style={{margin:"20px 0px 25px", padding:"0px 12px", alignItems:"flex-start"}} >
+  <h2 className='mission-title' style={{margin:"5px 0px !important",}}>SMK Memorial Athletics Meet 2024: </h2>
+<Link style={{color:"#3366CC", fontSize:"20px !important"}} href={"https://forms.gle/pd553NM1orPd3d3r5"} target="_blank">click here</Link>
+</div>
+
+
+
 <div className="coding">
 <Image src={"/coding2.jpg"} width={"450"} height={"600"} className='coding-img' alt='Coding Enrollment'/>
 </div>
       {/* <video src="/video1.mp4" autoPlay muted loop className='video'></video> */}
+
   <About/>
   <div className="location">
     <h2 className="subHeading">Location</h2>
